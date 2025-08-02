@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>RENOV'PAINT - Entreprise de Peinture et Rénovation à Douala, Cameroun | Devis Gratuit</title>
+    <meta name="description" content="RENOV'PAINT - Expert en peinture intérieure/extérieure, rénovation de façade, plâtrerie à Douala. ✓ Devis gratuit ✓ Matériaux de qualité ✓ 10 ans d'expérience. Contactez-nous !">
+    <meta name="keywords" content="peinture Douala, rénovation Cameroun, peintre professionnel, façade, plâtrerie, enduits, Montana City, Logpom, travaux peinture, rénovation maison">
+    <meta name="author" content="RENOV'PAINT">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="French">
+    <meta name="geo.region" content="CM-LT">
+    <meta name="geo.placename" content="Douala, Cameroun">
+    <meta name="geo.position" content="4.0511;9.7679">
+    <meta name="ICBM" content="4.0511, 9.7679">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="RENOV'PAINT - Entreprise de Peinture et Rénovation à Douala">
+    <meta property="og:description" content="Expert en peinture et rénovation à Douala. Devis gratuit, matériaux de qualité, travail soigné. Contactez-nous pour vos projets !">
+    <meta property="og:url" content="https://www.renovpaint-cameroun.com">
+    <meta property="og:site_name" content="RENOV'PAINT">
+    <meta property="og:image" content="https://www.renovpaint-cameroun.com/images/renovpaint-logo.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RENOV'PAINT - Peinture et Rénovation Douala">
+    <meta name="twitter:description" content="Expert en peinture et rénovation à Douala. Devis gratuit, matériaux de qualité.">
+    <meta name="twitter:image" content="https://www.renovpaint-cameroun.com/images/renovpaint-logo.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.renovpaint-cameroun.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "RENOV'PAINT",
+        "image": "https://www.renovpaint-cameroun.com/images/renovpaint-logo.jpg",
+        "description": "Entreprise spécialisée en peinture intérieure et extérieure, rénovation de façade, plâtrerie et travaux de rénovation à Douala, Cameroun.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Logpom",
+            "addressLocality": "Montana City",
+            "addressRegion": "Littoral",
+            "addressCountry": "CM"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 4.0511,
+            "longitude": 9.7679
+        },
+        "telephone": ["+237682639118", "+237699045800", "+237696163701"],
+        "email": "deumaga@yahoo.com",
+        "url": "https://www.renovpaint-cameroun.com",
+        "openingHours": "Mo-Sa 07:00-18:00",
+        "priceRange": "$",
+        "paymentAccepted": "Cash, Bank Transfer",
+        "areaServed": {
+            "@type": "City",
+            "name": "Douala"
+        },
+        "serviceType": [
+            "Peinture intérieure",
+            "Peinture extérieure", 
+            "Rénovation de façade",
+            "Plâtrerie",
+            "Enduits et ratissage",
+            "Traitement humidité"
+        ],
+        "sameAs": [
+            "https://www.facebook.com/renovpaint",
+            "https://www.instagram.com/renovpaint"
+        ]
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(135deg, #2563eb 0%, #059669 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="paint" patternUnits="userSpaceOnUse" width="20" height="20"><circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23paint)"/></svg>');
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .hero-content {
+            z-index: 2;
+            max-width: 800px;
+            padding: 0 20px;
+            animation: slideUp 1s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255,255,255,0.2);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #059669, #0d9488);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 15px 0;
+            transition: all 0.3s ease;
+        }
+
+        nav.scrolled {
+            background: rgba(255,255,255,0.98);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #2563eb;
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #333;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(45deg, #2563eb, #059669);
+            border-radius: 2px;
+        }
+
+        /* Services */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #2563eb, #059669);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* About */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .about-image {
+            background: linear-gradient(45deg, #2563eb, #059669);
+            border-radius: 20px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 4rem;
+        }
+
+        /* Contact */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #2563eb, #059669);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 1.2rem;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #eee;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #2563eb;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(45deg, #2563eb, #059669);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .about-content,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 0 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .logo {
+                width: 100px;
+                height: 100px;
+                font-size: 2.5rem;
+            }
+
+            .service-card,
+            .contact-form,
+            .contact-info {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#apropos">À Propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero" style="z-index: 10;">
+        <div class="hero-content">
+            <div class="logo">🎨</div>
+            <h1>RENOV'PAINT Douala</h1>
+            <p>Expert en Peinture & Rénovation au Cameroun</p>
+            <p>Transformez vos espaces avec nos 10 ans d'expérience !</p>
+            <a href="#contact" class="cta-button" aria-label="Obtenir un devis gratuit pour vos travaux de peinture">Devis Gratuit</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" style="z-index: 1; margin-top: 650px;">
+        <header>
+            <h2>Nos Services de Peinture et Rénovation</h2>
+        </header>
+        <div class="services-grid">
+            <article class="service-card fade-in">
+                <div class="service-icon" aria-hidden="true">🏠</div>
+                <h3>Peinture Intérieure et Extérieure Douala</h3>
+                <p>Peinture professionnelle pour maisons et bureaux à Douala. Matériaux de qualité supérieure, finition impeccable pour intérieur et extérieur.</p>
+            </article>
+            <article class="service-card fade-in">
+                <div class="service-icon" aria-hidden="true">🔧</div>
+                <h3>Enduits et Ratissage Murs Cameroun</h3>
+                <p>Préparation experte des surfaces murales. Ratissage, enduits de lissage pour un rendu parfait et durable de vos murs au Cameroun.</p>
+            </article>
+            <article class="service-card fade-in">
+                <div class="service-icon" aria-hidden="true">🏗️</div>
+                <h3>Travaux Plâtrerie Douala</h3>
+                <p>Services de plâtrerie complète : création cloisons, rénovation plafonds, tous travaux plâtre par artisans qualifiés à Douala.</p>
+            </article>
+            <article class="service-card fade-in">
+                <div class="service-icon" aria-hidden="true">🏘️</div>
+                <h3>Rénovation Façade Montana City</h3>
+                <p>Remise à neuf façades à Montana City et Douala. Nettoyage, réparation, peinture façade pour redonner éclat à votre bâtiment.</p>
+            </article>
+            <article class="service-card fade-in">
+                <div class="service-icon" aria-hidden="true">💧</div>
+                <h3>Traitement Humidité Fissures</h3>
+                <p>Solutions durables anti-humidité au Cameroun. Réparation fissures, étanchéité, traitement professionnel contre l'humidité.</p>
+            </article>
+            <article class="service-card fade-in">
+                <div class="service-icon" aria-hidden="true">💡</div>
+                <h3>Conseil Décoration Douala</h3>
+                <p>Accompagnement personnalisé en décoration intérieure. Conseils couleurs, choix matériaux pour vos projets rénovation à Douala.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos">
+        <header>
+            <h2>Pourquoi Choisir RENOV'PAINT à Douala ?</h2>
+        </header>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <p><strong>RENOV'PAINT</strong>, votre entreprise de peinture de confiance à <strong>Douala depuis 10 ans</strong>. Spécialisés dans la rénovation complète, nous intervenons dans tout le <strong>Littoral Cameroun</strong>.</p>
+                <br>
+                <h3>Notre Expertise Reconnue :</h3>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>• <strong>10 ans d'expérience</strong> en peinture et rénovation</li>
+                    <li>• <strong>Matériaux premium</strong> résistants au climat tropical</li>
+                    <li>• <strong>Artisans qualifiés</strong> et assurés</li>
+                    <li>• <strong>Devis gratuit</strong> sous 24h</li>
+                    <li>• <strong>Garantie</strong> sur tous nos travaux</li>
+                </ul>
+                <br>
+                <p>De <strong>Montana City</strong> à <strong>Logpom</strong>, nous transformons vos espaces avec passion et professionnalisme. <strong>Plus de 500 clients satisfaits</strong> nous font confiance !</p>
+            </div>
+            <div class="about-image fade-in" role="img" aria-label="Icône représentant l'excellence de RENOV'PAINT">
+                🏆
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <header>
+            <h2>Contactez RENOV'PAINT Douala - Devis Gratuit</h2>
+        </header>
+        <div class="contact-grid">
+            <address class="contact-info fade-in">
+                <h3 style="margin-bottom: 30px;">Votre Entreprise de Peinture à Douala</h3>
+                <div class="contact-item">
+                    <div class="contact-icon" aria-hidden="true">📞</div>
+                    <div>
+                        <strong>Téléphone Douala</strong><br>
+                        <a href="tel:+237682639118" style="color: white; text-decoration: none;">(+237) 682 639 118</a><br>
+                        <a href="tel:+237699045800" style="color: white; text-decoration: none;">(+237) 699 045 800</a><br>
+                        <a href="tel:+237696163701" style="color: white; text-decoration: none;">(+237) 696 163 701</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon" aria-hidden="true">✉️</div>
+                    <div>
+                        <strong>Email Peintre Douala</strong><br>
+                        <a href="mailto:deumaga@yahoo.com" style="color: white; text-decoration: none;">deumaga@yahoo.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon" aria-hidden="true">📍</div>
+                    <div>
+                        <strong>Adresse Montana City</strong><br>
+                        Logpom, Montana City<br>
+                        Douala, Littoral, Cameroun
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon" aria-hidden="true">🕒</div>
+                    <div>
+                        <strong>Horaires d'ouverture</strong><br>
+                        Lundi - Samedi : 7h00 - 18h00<br>
+                        Dimanche : Sur rendez-vous
+                    </div>
+                </div>
+                <div style="margin-top: 30px;">
+                    <p><strong>🌐 Suivez nos réalisations peinture sur Facebook et Instagram !</strong></p>
+                </div>
+            </address>
+            <aside class="contact-form fade-in">
+                <h3 style="margin-bottom: 30px;">Zone d'Intervention - Douala et Environs</h3>
+                <div style="font-size: 1.1rem; line-height: 1.8; color: #666;">
+                    <h4 style="color: #2563eb; margin-bottom: 15px;">🏙️ Quartiers Desservis :</h4>
+                    <ul style="margin-left: 20px;">
+                        <li>• <strong>Montana City</strong> - Logpom</li>
+                        <li>• <strong>Bonapriso</strong> - Centre-ville</li>
+                        <li>• <strong>Akwa</strong> - Bonanjo</li>
+                        <li>• <strong>Makepe</strong> - Deido</li>
+                        <li>• <strong>Bassa</strong> - New Bell</li>
+                        <li>• <strong>PK</strong> et environs</li>
+                    </ul>
+                    <br>
+                    <h4 style="color: #059669; margin-bottom: 15px;">⚡ Intervention Rapide :</h4>
+                    <p>🚀 <strong>Devis gratuit sous 24h</strong></p>
+                    <p>📅 <strong>Rendez-vous dans la semaine</strong></p>
+                    <p>✅ <strong>Travaux garantis</strong></p>
+                    <br>
+                    <p style="background: #f0f9ff; padding: 15px; border-radius: 10px; border-left: 4px solid #2563eb;">
+                        <strong>💡 Astuce :</strong> Appelez-nous pour un conseil gratuit sur vos travaux de peinture et rénovation !
+                    </p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-bottom: 20px;">
+                <div>
+                    <h4 style="margin-bottom: 15px; color: #2563eb;">RENOV'PAINT Douala</h4>
+                    <p>Votre expert peinture et rénovation au Cameroun</p>
+                    <p>📍 Logpom, Montana City, Douala</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 15px; color: #059669;">Services Populaires</h4>
+                    <p>• Peinture maison Douala</p>
+                    <p>• Rénovation façade Cameroun</p>
+                    <p>• Plâtrerie Montana City</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 15px; color: #2563eb;">Contact Rapide</h4>
+                    <p>☎️ (+237) 682 639 118</p>
+                    <p>✉️ deumaga@yahoo.com</p>
+                    <p>🕒 Lun-Sam: 7h-18h</p>
+                </div>
+            </div>
+            <hr style="border: none; height: 1px; background: #555; margin: 20px 0;">
+            <p style="text-align: center;">&copy; 2024 RENOV'PAINT - Entreprise de Peinture et Rénovation Douala, Cameroun. Tous droits réservés.</p>
+            <p style="text-align: center; margin-top: 10px; font-size: 0.9rem;">Peintre professionnel | Rénovation façade | Devis gratuit Douala | Montana City | Logpom</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Form submission - removed since it's frontend only
+
+        // Add some interactive hover effects
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
